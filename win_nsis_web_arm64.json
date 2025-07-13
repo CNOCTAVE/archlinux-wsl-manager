@@ -1,0 +1,28 @@
+{
+    "appId": "cn.cnoctave.archlinux-wsl-manager",
+    "productName": "archlinux-wsl-manager",
+    "buildNumber": "0.1.0",
+    "icon": "logo.png",
+    "directories": {
+        "output": "dist"
+    },
+    "publish": [
+        {
+        "provider": "github",
+        "owner": "CNOCTAVE",
+        "repo": "archlinux-wsl-manager",
+        "releaseType": "release"
+        }
+    ],
+    "win": {
+        "artifactName": "${name}-${version}-${os}-${arch}-nsis-web.${ext}",
+        "target": [
+            {
+                "target": "nsis-web",
+                "arch": [
+                    "arm64"
+                ]
+            }
+        ]
+    }
+}
