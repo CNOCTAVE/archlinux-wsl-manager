@@ -32,7 +32,7 @@
                     "name": "archlinux-wsl-manager",
                     "description": "archlinux-wsl-manager is an open source ArchLinux WSL manager packed by Electron",
                     "version": "3.1.0",
-                    "com.github.app.url": "http://cnoctave.cn",
+                    "com.github.app.url": "http://cnoctave.top",
                     "com.github.app.license": "AGPL-3.0-only"
                   },
                   "finishArgs": [
